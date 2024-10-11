@@ -7,7 +7,7 @@ app.get('/', async (req, res) => {
 
 app.get('/404', (req, res) => {
     res.send('This page does not exist');
-}):
+});
 
 const port = parseInt(process.env.PORT) || 8080;
 app.listen(port, () => {
