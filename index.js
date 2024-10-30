@@ -2,7 +2,7 @@ import express from 'express';
 const app = express();
 
 app.get('/', async (req, res) => {
-    res.send(`<h1>Hello World, It's me Dio!</h1>`);
+    res.send(`<h1>Hello World, It's me Dio!!</h1>`);
 });
 
 app.get('/404', (req, res) => {
