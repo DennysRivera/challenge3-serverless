@@ -1,6 +1,6 @@
 import express from 'express';
 const app = express();
-const ok;
+const ok = "ok";
 
 app.get('/', async (req, res) => {
     res.send(`<h1>Hello World, It's me Dio!!</h1>`);
