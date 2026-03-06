@@ -19,6 +19,10 @@ description: Cloud Run development service
 run:
   location: projects/dennysp-dev/locations/us-central1
 executionConfigs:
+- usages:
+  - DEPLOY
+  privatePool:
+    workerPool: "projects/dennyspaux-dev/locations/us-central1/workerPools/shared"
   serviceAccount: "custom-cloud-build@dennyspaux-dev.iam.gserviceaccount.com"
 ---
 
